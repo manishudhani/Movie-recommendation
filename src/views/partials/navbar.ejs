@@ -1,0 +1,28 @@
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="row">
+          <div>
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                </button>
+              <a class="navbar-brand" href="/">IMDB</a>
+            </div>
+          </div>
+          <div>
+              <ul class="nav navbar-nav navbar-right">
+                <li>
+                  <form class="navbar-form navbar-right" method="post" action="/filterCSV/search">
+                	<div class="form-group">
+                    <input style="width:300px;border-radius:3px;" type="text" id="myInput" class="form-control" onkeyup="myFunction()" placeholder="Search for title.." title="Type in a name">
+                		<!-- <button class="btn btn-default" type="submit">Submit</button> -->
+                	</div>
+                </form>
+              </li>
+
+      	    </ul>
+          </div>
+        </div>
+    </div>
+</nav>
